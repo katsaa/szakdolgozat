@@ -1,0 +1,26 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "start": "webpack-dev-server --open"
+  },
+  "dependencies": {
+    "tinymce": "4.7.1",
+    "tinymce-a11y-checker": "^2.3.0"
+  },
+  "devDependencies": {
+    "webpack": "3.7.1",
+    "webpack-dev-server": "2.9.2",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "4.9.0",
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
