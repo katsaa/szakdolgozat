@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --open"
   },
   "dependencies": {
-    "tinymce": "4.7.1",
+    "tinymce": "5.6.0",
     "tinymce-a11y-checker": "^2.3.0"
   },
   "devDependencies": {
